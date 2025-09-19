@@ -1,0 +1,101 @@
+<html>
+<head>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            background-color: black;
+            overflow-x: scroll; /* allow horizontal scrolling */
+        }
+
+        .bg {
+            background-image: url("./static/images/blackhole.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 1400px;   /* still fixed wide so it scrolls horizontally */
+            margin: 0 auto;
+            padding: 20px;
+            color: white;
+        }
+
+        a {
+            color: #c3600a;
+            text-decoration: underline;
+        }
+
+        .gallery {
+            width: 100%;
+            max-width: 1400px;   /* gallery also capped */
+        }
+
+        .gallery img {
+            position: relative;   /* relative instead of absolute */
+            width: auto;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body class="bg">
+
+    <div class="container">
+        <p><a href="./index.html">Back home</a></p>
+
+        <div class="gallery">
+            <a href="https://www.youtube.com/watch?v=XSp4KR6-nq8">
+                <img src="./static/images/thetobos.jpg" alt="the tobos"
+                     style="position:absolute; top:60px; left:20px; width:500px; height:auto;">
+            </a>
+            <a href="https://archive.org/details/principleofrelat00eins/page/n91/mode/2up">
+                <img src="./static/images/time.jpg" alt="Principle of Time, Albert Einstein"
+                    style="position:absolute; top:20px; left:550px; width:650px; height:auto;">
+            </a>
+
+            <img src="./static/images/ants.png" alt="ants on branch"
+                 style="position:absolute; top:150px; left:1120px; width:360px; height:auto; transform: rotate(95deg)">
+
+            <a href="https://www.space.com/james-webb-space-telescope-question-mark-galaxy-photo">
+                <img src="./static/images/question.jpg" alt="JWST question mark shaped galaxy"
+                     style="position:absolute; top:630px; left:480px; width:880px; height:auto;">
+            </a>
+            <img src="./static/images/fa.jpg" alt="farallones de Cali"
+                 style="position:absolute; top:400px; left:50px; width:400px; height:auto;">
+            <img src="./static/images/geese.png" alt="wild geese"
+                 style="position:absolute; top:300px; left:150px; width:500px; height:auto;">
+
+            <img src="./static/images/barthes.png" alt="A Lover's Discourse by Roland Barthes"
+                 style="position:absolute; top:970px; left:30px; width:500px; height:auto;">
+
+
+            <img src="./static/images/fox.jpg" alt="Wes Anderson's Fantastic Mr. Fox"
+                 style="position:absolute; top:1330px; left:40px; width:500px; height:auto;">
+            <img src="./static/images/cicada.jpg" alt="cicada"
+                 style="position:absolute; top:1240px; left:580px; width:300px; height:auto;">
+            <img src="./static/images/dance.jpg" alt="Dance By Henri Matisse"
+                 style="position:absolute; top:1290px; left:920px; width:500px; height:auto;">
+
+            
+            <img src="./static/images/ksgram.jpg" alt="Kruskal–Szekeres coordinates from Gravity by Hartle"
+                 style="position:absolute; top:1610px; left:200px; width:700px; height:auto;">
+            <img src="./static/images/vine1.png" alt="vine"
+                 style="position:absolute; top:1580px; left:50px; width:400px; height:auto;">
+            <img src="./static/images/jupiter.jpg" alt="Jupiter and her moons"
+                 style="position:absolute; top:1700px; left:920px; width:500px; height:auto;">
+
+
+                
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+
